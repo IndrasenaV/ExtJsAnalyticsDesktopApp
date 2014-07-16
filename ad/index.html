@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Anlaytics On Hadoop</title>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3&sensor=false"></script>
+    <script src="/WebAnalyticsConnector/js/collector.js" type="text/javascript"></script>
+  <script type="text/javascript">
+  	var loggedInMember = null;
+  </script>
+    <!-- <x-compile> -->
+        <!-- <x-bootstrap> -->
+            <link rel="stylesheet" href="bootstrap.css">
+            <script src="../ext/ext-dev.js"></script>
+            <script src="bootstrap.js"></script>
+        <!-- </x-bootstrap> -->
+        <script src="app.js"></script>
+    <!-- </x-compile> -->
+<!-- 
+<script type="text/javascript">
+	<%
+		String user = "";
+		MemberProfile memberProfie = (MemberProfile)session.getAttribute("loggedMember");
+		if( memberProfie != null ){
+			user = memberProfie.getEmail();
+		}
+	%>
+	var loggedInMember = "<%=user%>";
+	if ( console == undefined ) var console = {log: function() {}};
+    if ( window == undefined || window.console == undefined) var console = {log: function() {}};
+</script>
+ -->
+   
+</head>
+<body></body>
+</html>
